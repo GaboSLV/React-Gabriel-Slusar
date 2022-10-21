@@ -1,13 +1,9 @@
 import React from "react"
-import LogoImagen from "../imgs/vibeslogo.png"
+import CartWidget from "./CartWidget"
 const Navbar = () => {
     return  (
     <header>
-        <div class="logo">
-        <img src={LogoImagen} alt=""></img>
-        <h2>Vibes Code</h2>
-        </div>
-
+ <CartWidget/>
         <nav> 
             <a href="">Home</a>
             <a href="">Store</a>
